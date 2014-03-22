@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script><head>
+<title>PHProxyImproved Proxy Script </title>
+<link rel="stylesheet" type="text/css" href="include/style.css">
+<script type="text/javascript">
+document.getElementById("optionsjs").style.display = 'block';
+
+function toggle(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+	  e.style.display = 'none';
+   else
+	  e.style.display = 'block';
+}
+</script>
+</head>
+<body onload="document.getElementById('address_box').focus()">
+<div id="container">
+	<h1 id="title">PHProxyImproved Proxy Script </h1>
+	<ul class="address_tabs">
+		<li id="tab1" class="selected"><a>Browse</a></li>
+		<li id="tab2"><a href="http://www.proxyhelp.org/mybb">Support</a></li>
+	</ul>
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></ul><div id="address_bar">
+	<form method="post" action="/proxy/index.php">
+		<input id="address_prefix" type="text" value="http://" disabled></input><input id="address_box" type="text" name="q" value="startpage.com" onfocus="this.select()" /></label>
+		<input id="submit" type="submit" value="Go" />
+		<span id="settings"><img src="data:;base64,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" onclick="toggle('options');" /></span>
+
+</div>
+	<form method="post" action="/proxy/index.php">
+		<ul id="form">
+			<div id="adsense"><script type="text/javascript">
+/* Proxy Help ADs Script */
+google_ad_client = "pub-3402075004633034";
+google_ad_slot = "6505751312";
+google_ad_width = 468;
+google_ad_height = 15;
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div><div id="options"><li class="option"><label><input type="checkbox" name="hl[remove_scripts]" />Remove client-side scripting (i.e JavaScript)</label></li>
+<li class="option"><label><input type="checkbox" name="hl[accept_cookies]" checked="checked" />Allow cookies to be stored</label></li>
+<li class="option"><label><input type="checkbox" name="hl[show_images]" checked="checked" />Show images on browsed pages</label></li>
+<li class="option"><label><input type="checkbox" name="hl[show_referer]" checked="checked" />Show actual referring Website</label></li>
+<li class="option"><label><input type="checkbox" name="hl[rotate13]" checked="checked" />Use ROT13 encoding on the address</label></li>
+<li class="option"><label><input type="checkbox" name="hl[base64_encode]" />Use base64 encodng on the address</label></li>
+<li class="option"><label><input type="checkbox" name="hl[strip_meta]" />Strip meta information tags from pages</label></li>
+<li class="option"><label><input type="checkbox" name="hl[strip_title]" />Strip page title</label></li>
+<li class="option"><label><input type="checkbox" name="hl[session_cookies]" checked="checked" />Store cookies for this session only</label></li>
+</div></ul>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urgent tamen et nihil remittunt. Nihil sane.
+An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia? Tecum optime, deinde etiam cum mediocri amico. Equidem e Cn. Quis hoc dicit? Nam his libris eum malo quam reliquo ornatu villae delectari. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Theophrasti igitur, inquit, tibi liber ille placet de beata vita? Etenim nec iustitia nec amicitia esse omnino poterunt, nisi ipsae per se expetuntur. 	</form>
+	<div id="footer">
+		(C) 2012  &nbsp;  Powerd by: <a href="http://phproxyimproved.com">phproxyimproved.com</a> 0.3</div>
+	</div>
+</div>
+</body>
+</html>
